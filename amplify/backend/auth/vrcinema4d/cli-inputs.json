@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "vrcinema4d_identitypool_84219e87",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "vrcinema4d",
+    "sharedId": "84219e87",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
