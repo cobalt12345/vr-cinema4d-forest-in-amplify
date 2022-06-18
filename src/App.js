@@ -42,8 +42,8 @@ class App extends React.Component {
 
     return (
         <React.Fragment>
-            <div id="sumerian-scene-dom-id" ref={this.myRef} style={{height: '100%', width: '100%'}}></div>
-            <Button onClick={this.enterVR}>VR</Button>
+            <div id="sumerian-scene-dom-id" ref={this.myRef} style={{height: '100%', width: '100%', backgroundColor: 'rgb(163,163,163)'}}></div>
+            <Button onClick={this.enterVR} style={{height: 60, width: 100}}>Load scene</Button>
         </React.Fragment>
     );
   }
